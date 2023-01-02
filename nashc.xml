@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
    <!-- Remote -->
-   <remote name="nashc-dev" fetch="git://github.com/nashc-dev" />
+   <remote name="nashc-dev" fetch="https://github.com/nashc-dev" />
 
    <!-- Device Trees -->
    <project path="device/realme/nashc" name="android_device_realme_nashc" revision="lineage-20" remote="nashc-dev" />
