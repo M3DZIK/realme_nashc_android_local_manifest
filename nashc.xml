@@ -5,7 +5,7 @@
 
    <!-- Device Trees -->
    <project path="device/realme/nashc" name="android_device_realme_nashc" revision="lineage-20" remote="nashc-dev" />
-   <!-- <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" revision="lineage-19.1" remote="nashc-dev" /> -->
+   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" revision="lineage-19.1-S" remote="nashc-dev" />
 
    <!-- Kernel Source -->
    <project path="kernel/realme/mt6785" name="android_kernel_realme_mt6785" revision="13.0-new" remote="nashc-dev" />
