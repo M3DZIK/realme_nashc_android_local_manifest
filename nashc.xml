@@ -6,16 +6,15 @@
 
   <!-- Device Trees -->
   <project path="device/realme/nashc" name="android_device_realme_nashc" revision="lineage-20" remote="nashc-dev" />
-  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" revision="lineage-19.1-S" remote="nashc-dev" />
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" revision="lineage-20" remote="nashc-dev" />
 
   <!-- Kernel Source -->
-  <project path="kernel/realme/mt6785" name="android_kernel_realme_mt6785" revision="13.0-new" remote="nashc-dev" />
+  <project path="kernel/realme/mt6785" name="android_kernel_realme_mt6785" revision="lineage-20" remote="nashc-dev" />
 
   <!-- Vendor Blobs -->
   <project path="vendor/realme" name="android_vendor_realme" revision="13.0" remote="nashc-dev" />
-  <project path="vendor/realme/nashc/proprietary" name="realme_nashc_android_local_manifest" revision="main" remote="medzik" />
 
   <!-- Hardware Components -->
   <project path="hardware/oplus" name="android_hardware_oplus" revision="lineage-19.1" remote="nashc-dev" />
-  <project path="hardware/mediatek" name="android_hardware_mediatek" revision="lineage-20" remote="nashc-dev" />
+  <project path="hardware/mediatek" name="android_hardware_mediatek" revision="lineage-20-rebase" remote="nashc-dev" />
 </manifest>
